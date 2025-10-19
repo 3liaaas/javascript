@@ -7,12 +7,15 @@ function carregar() {
     if (hora >= 0 && hora < 12) {
         //bom dia
         img.src = 'manha-redondo-img.png'
+        document.body.style.background = '#816148'
     } else if (hora >= 12 && hora < 18) {
         //boa tarde
         img.src = 'tarde-redondo-img.png'
+        document.body.style.background = '#fbb79d'
     } else if (hora >= 18 && hora < 24) {
         //boa noite
         img.src = 'noite-redondo-img.png'
+        document.body.style.background = '#1f3439'
     } else if (hora > 24) {
         //hora inválida
     }
