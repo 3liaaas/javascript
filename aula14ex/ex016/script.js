@@ -16,11 +16,11 @@ function contar(){
             for(let c = i; c <= f;c += p) {
                 res.innerHTML += `${c} \u{1f449}`
             }
-        }
-    } else {
-        // Contagem Regressiva
-        for(let c = 1; c >= f; c-= p) {
-            res.innerHTML += `${c} \u{1f449}`
+        } else {
+            // Contagem Regressiva
+            for(let c = i; c >= f; c-= p) {
+                res.innerHTML += `${c} \u{1f449}`
+            }
         }
         res.innerHTML += `\u{1f3c1}`
     }
